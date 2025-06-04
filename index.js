@@ -30,3 +30,11 @@ function sayMagicWord(event) {
 prestoBtn.addEventListener("click", sayMagicWord);
 abraBtn.addEventListener("click", sayMagicWord);
 theRock.addEventListener("click", sayMagicWord);
+
+document.getElementById('outer').addEventListener("click", () => { console.log("Outer div clicked") })
+document.getElementById('middle').addEventListener("click", () => {
+    console.log("Middle div clicked")
+})
+document.getElementById('inner').addEventListener("click", () => {
+    console.log("Inner div clicked")
+})
